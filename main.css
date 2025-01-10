@@ -1,0 +1,31 @@
+body{
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container{
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+li{
+    cursor: pointer;
+}
+
+li.feito {
+    text-decoration: line-through;
+    color: #888;
+    cursor: pointer;
+}
